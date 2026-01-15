@@ -1,0 +1,7 @@
+com\iauro\expensetracker\AuthController.class
+com\iauro\expensetracker\User.class
+com\iauro\expensetracker\Expense.class
+com\iauro\expensetracker\ExpenseController.class
+com\iauro\expensetracker\ExpenseTrackerApplication.class
+com\iauro\expensetracker\UserRepository.class
+com\iauro\expensetracker\ExpenseRepository.class
