@@ -30,3 +30,86 @@ The backend is built using **Java Spring Boot**, while the frontend is implement
 
 ## Project Structure
 
+IauroAssignment
+├── Backend
+│ ├── src/main/java/com/iauro/expensetracker
+│ │ ├── ExpenseTrackerApplication.java
+│ │ ├── AuthController.java
+│ │ ├── ExpenseController.java
+│ │ ├── Expense.java
+│ │ ├── User.java
+│ │ ├── ExpenseRepository.java
+│ │ └── UserRepository.java
+│ ├── src/main/resources
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── Frontend
+│ ├── login.html
+│ ├── signup.html
+│ └── expenses.html
+│
+└── README.md
+
+
+---
+
+## Technologies Used
+
+### Backend
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- H2 In-Memory Database
+- Maven
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Browser `localStorage`
+
+---
+
+## How to Run the Project
+
+### Prerequisites
+- Java 17+
+- Maven
+- Any modern web browser
+
+---
+
+### Step 1: Run Backend
+
+Open terminal inside the **Backend** folder:
+
+```bash
+cd Backend
+mvn clean install
+mvn spring-boot:run
+
+Step 2: Run Frontend
+
+Open the following files directly in a browser:
+
+Frontend/signup.html
+Frontend/login.html
+
+
+After successful login, the user is redirected to:
+
+expenses.html
+
+API Endpoints
+Authentication
+
+POST /api/auth/signup
+
+POST /api/auth/login
+
+Expenses
+
+GET /api/expenses
+
+POST /api/expenses
